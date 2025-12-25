@@ -1,0 +1,48 @@
+import { Tournament } from "@/types";
+
+export const seedTournaments: Tournament[] = [
+  {
+    id: "seaside-games",
+    name: "Seaside Unity Games",
+    description: "A weekend of unified sports with adaptive coaching and inclusive social activities.",
+    date: "2025-07-12",
+    location: "San Diego, CA",
+    category: "Unified Sports",
+    slots: 120,
+    accessibilityNotes: "Wheelchair-friendly venues, sensory-friendly zones, visual schedules provided.",
+    status: "Open",
+  },
+  {
+    id: "winter-challenge",
+    name: "Rocky Mountain Winter Challenge",
+    description: "Inclusive skiing, snowshoeing, and figure skating competition for all abilities.",
+    date: "2025-12-05",
+    location: "Denver, CO",
+    category: "Winter Sports",
+    slots: 80,
+    accessibilityNotes: "Adaptive ski equipment, heated rest areas, companion passes for guides.",
+    status: "Open",
+  },
+  {
+    id: "sunrise-track",
+    name: "Sunrise Track & Field Classic",
+    description: "Timed races, throwing events, and relays with certified Special Olympics officials.",
+    date: "2025-09-01",
+    location: "Atlanta, GA",
+    category: "Track & Field",
+    slots: 150,
+    accessibilityNotes: "Audio start cues, tactile lane markers, hydration & cooling stations.",
+    status: "In Progress",
+  },
+  {
+    id: "harbor-swim",
+    name: "Harbor City Swim Meet",
+    description: "Short- and long-distance swim events with dedicated buddy program.",
+    date: "2025-06-20",
+    location: "Baltimore, MD",
+    category: "Swimming",
+    slots: 60,
+    accessibilityNotes: "Zero-entry pool, visual timers, lifeguard-to-lane ratio of 1:6.",
+    status: "Open",
+  },
+];
